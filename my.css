@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+header {
+  background-color: rgb(112, 5, 5);
+  color: white;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-variant: small-caps;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 70vw auto;
+  grid-column-gap: 40px;
+  padding: 0px 20px;
+}
+
+li {
+  margin: 5px 0px;
+}
+
+.Experience-grid {
+  display: grid;
+  grid-template-columns: 20vw auto;
+  margin-top: 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.summary,
+.Experience {
+  margin: 15px 0px;
+  text-align: justify;
+}
+
+.Experience > p,
+#nav-headings {
+  color: rgb(112, 5, 5);
+  font-family: "Montserrat", sans-serif;
+  font-variant: small-caps;
+  font-weight: 600;
+}
+
+nav > p {
+  margin: 5px 0px;
+}
+
+span {
+  text-align: right;
+}
+
+ul p,
+div p,
+article p,
+nav p {
+  font-weight: 600;
+}
+
+.Experience-grid {
+  grid-gap: 20px;
+}
+
+img {
+  max-width: 100px;
+  margin: auto;
+  display: block;
+}
+
+@media (max-width: 670px) {
+  img {
+    display: none;
+  }
+  main {
+    grid-template-columns: 50vw auto;
+  }
+}
