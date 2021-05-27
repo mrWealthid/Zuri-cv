@@ -16,7 +16,7 @@ header {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: x-large;
   font-variant: small-caps;
-  width:100vw
+  width: 100vw;
 }
 
 main {
@@ -84,11 +84,11 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 730px) {
   img {
     display: none;
   }
   main {
-    grid-template-columns: 50vw auto;
+    grid-template-columns: auto;
   }
 }
