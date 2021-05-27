@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
   padding: 0px;
 }
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Montserrat";
   font-size: 14px;
 }
 header {
@@ -55,7 +55,7 @@ ul {
 }
 
 nav > p {
-  margin: 5px 0px;
+  margin: 15px 0px;
 }
 
 span {
@@ -75,8 +75,12 @@ nav p {
 
 img {
   max-width: 100px;
-  margin: auto;
+  margin: 2px auto;
   display: block;
+}
+
+footer {
+  text-align: center;
 }
 
 @media (max-width: 670px) {
