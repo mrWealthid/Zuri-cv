@@ -89,6 +89,8 @@ img {
 
 footer {
   text-align: center;
+  position: relative;
+  bottom: 0px;
 }
 
 @media (max-width: 730px) {
