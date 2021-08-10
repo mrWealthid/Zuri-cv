@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,17 +6,24 @@
   padding: 0px;
 }
 body {
-  font-family: "Montserrat";
+  font-family: "Poppins";
   font-size: 14px;
+  font-weight: 400;
+  width: 100vw;
+  overflow-x: hidden;
 }
 header {
   background-color: rgb(112, 5, 5);
   color: white;
-  padding: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: x-large;
-  font-variant: small-caps;
+  padding: 25px;
   width: 100vw;
+}
+
+header h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  font-variant: small-caps;
 }
 
 main {
