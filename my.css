@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
 * {
   box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
   overflow-x: hidden;
 }
 header {
-  background-color: rgb(112, 5, 5);
+  background-color: #795548;
   color: white;
   padding: 25px;
   width: 100vw;
@@ -56,7 +56,7 @@ ul {
 
 .Experience > p,
 #nav-headings {
-  color: rgb(112, 5, 5);
+  color: #795548;
   font-family: "Montserrat", sans-serif;
   font-variant: small-caps;
   font-weight: 600;
@@ -74,7 +74,7 @@ ul p,
 div p,
 article p,
 nav p {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .Experience-grid {
