@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  /* font-size: large; */
 }
 body {
   font-family: "Poppins";
@@ -30,7 +31,7 @@ main {
   display: grid;
   grid-template-columns: 70vw auto;
   grid-column-gap: 40px;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 li {
@@ -40,7 +41,7 @@ li {
 .Experience-grid {
   display: grid;
   grid-template-columns: 20vw auto;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 ul {
   list-style-type: none;
@@ -83,7 +84,7 @@ nav p {
 
 img {
   max-width: 100px;
-  margin: 2px auto;
+  margin: 0px auto;
   display: block;
 }
 
