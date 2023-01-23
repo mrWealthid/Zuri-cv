@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
   /* font-size: large; */
 }
 body {
-  font-family: 'Poppins';
+  font-family: 'Raleway';
   font-size: 14px;
   font-weight: 400;
   width: 100vw;
@@ -35,7 +35,7 @@ main {
 }
 
 li {
-  margin: 5px 0px;
+  margin: 8px 0px;
 }
 
 .Experience-grid {
@@ -64,12 +64,15 @@ ul {
   font-weight: 600;
 }
 
+
+
 nav > p {
   margin: 15px 0px;
 }
 
 span {
   text-align: right;
+  line-height: 25px;
 }
 
 .projects p {
@@ -98,6 +101,11 @@ footer {
   bottom: 0px;
 }
 
+
+.desc-details {
+  font-style: italic;
+  font-size: small;
+}
 @media (max-width: 730px) {
   img {
     display: none;
