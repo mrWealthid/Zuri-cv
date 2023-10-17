@@ -13,6 +13,11 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
+
+
+.duties {
+  list-style-type: circle;
+}
 header {
   background-color: #795548;
   color: white;
