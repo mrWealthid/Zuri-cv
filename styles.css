@@ -54,7 +54,7 @@ li {
   margin: 8px 0px;
 }
 
-.Experience-grid {
+.experience-grid {
   display: grid;
   grid-template-columns: 20vw auto;
   margin-top: 10px;
@@ -65,14 +65,20 @@ ul {
   padding: 0px;
 }
 
-.summary,
-.Experience {
+.main-section,
+.experience,
+.education,
+.certification,
+.courses {
   margin: 15px 0px;
   text-align: justify;
   line-height: 23px;
 }
 
-.Experience > p,
+.experience > p,
+.education > p,
+.certification > p,
+.courses > p,
 #nav-headings {
   color: #795548;
   font-family: "Montserrat", sans-serif;
@@ -100,7 +106,7 @@ nav p {
   font-weight: 500;
 }
 
-.Experience-grid {
+.experience-grid {
   grid-gap: 20px;
 }
 
