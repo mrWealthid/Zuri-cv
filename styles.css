@@ -79,10 +79,14 @@ ul {
   margin: 15px 0px;
 }
 
-.experience > p,
-.education > p,
+/* .education > p,
 .certification > p,
-.courses > p,
+.courses > p, */
+
+.details > p {
+  margin: 10px 0px;
+}
+
 .sub-headings {
   color: var(--primary-color);
   font-family: "Montserrat", sans-serif;
