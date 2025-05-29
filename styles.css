@@ -7,13 +7,13 @@
   /* font-size: large; */
 }
 
-.skills {
-  /*background-color: #afefaf;*/
-  /*padding:3px;*/
-  font-weight: bold;
-  /*transform: skewX(-10deg);*/
-  /*display: inline-block;*/
+:root {
+  --primary-color: #795548;
+  --secondary-color: #f5f5f5;
+  --text-color: #333;
+  --link-color: #1a73e8;
 }
+
 body {
   font-family: "Raleway";
   font-size: 14px;
@@ -29,18 +29,21 @@ hr {
 .duties {
   list-style-type: circle;
 }
+
 header {
-  background-color: #795548;
-  color: white;
+  /* background-color: #795548; */
+  color: var(--primary-color);
   padding: 25px;
   width: 100vw;
+  border-bottom: 0.1px dotted var(--primary-color);
 }
 
 header h3 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   font-size: x-large;
   font-weight: 500;
-  font-variant: small-caps;
+
+  /* font-variant: small-caps; */
 }
 
 main {
@@ -48,16 +51,20 @@ main {
   grid-template-columns: 70vw auto;
   grid-column-gap: 40px;
   padding: 0px 10px;
+  margin: 15px 15px;
+  text-align: justify;
+  line-height: 23px;
 }
 
 li {
   margin: 8px 0px;
 }
 
-.experience-grid {
+.section-grid {
   display: grid;
   grid-template-columns: 20vw auto;
   margin-top: 10px;
+  grid-gap: 20px;
 }
 ul {
   list-style-type: none;
@@ -65,61 +72,28 @@ ul {
   padding: 0px;
 }
 
-.main-section,
 .experience,
 .education,
 .certification,
 .courses {
   margin: 15px 0px;
-  text-align: justify;
-  line-height: 23px;
 }
 
 .experience > p,
 .education > p,
 .certification > p,
 .courses > p,
-.nav-headings {
-  color: #795548;
+.sub-headings {
+  color: var(--primary-color);
   font-family: "Montserrat", sans-serif;
   font-variant: small-caps;
   font-weight: 600;
   margin: 15px 0px;
 }
 
-aside > h5 {
-  margin: 10px 0px;
-}
-
-span {
-  text-align: right;
-  line-height: 25px;
-}
-
-.projects p {
-  margin-top: 5px;
-}
-ul p,
-div p,
-article p,
-nav p {
-  font-weight: 500;
-}
-
-.experience-grid {
-  grid-gap: 20px;
-}
-
-img {
-  max-width: 100px;
-  margin: 0px auto;
-  display: block;
-}
-
-footer {
-  text-align: center;
-  position: relative;
-  bottom: 0px;
+.personal-info > h4,
+.skills > h4 {
+  margin: 5px 0px;
 }
 
 .desc-details {
@@ -127,9 +101,6 @@ footer {
   font-size: small;
 }
 @media (max-width: 730px) {
-  img {
-    display: none;
-  }
   main {
     grid-template-columns: auto;
   }
